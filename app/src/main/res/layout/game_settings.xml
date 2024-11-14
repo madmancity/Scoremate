@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007A33"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <EditText
+        android:id="@+id/teamname"
+        android:layout_width="250dp"
+        android:padding="10dp"
+        android:layout_height="60dp"
+        android:background="@drawable/scorebox"
+        android:fontFamily="@font/bosox"
+        android:gravity="center"
+        android:hint="Red Sox"
+        android:textColor="#FFFFFF"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        />
+    <Button
+        android:id="@+id/autofill"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375"
+        android:text="Set to Local team"
+        android:fontFamily="@font/bosox"
+        android:textSize="20dp"
+        android:backgroundTint="#007A33"
+        />
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/awayswitch"
+        android:layout_width="175dp"
+        android:padding="10dp"
+        android:layout_height="60dp"
+        android:text="Away Team "
+        android:fontFamily="@font/bosox"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46"
+        android:background="@drawable/scorebox"
+
+        />
+
+
+    <EditText
+        android:id="@+id/inning"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+        app:layout_constraintHorizontal_bias="0.65"
+        android:fontFamily="@font/bosox"
+        android:textColor="#FFFFFF"
+        android:text="9"
+        android:inputType="number"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="@drawable/scorebox"
+
+        />
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+        app:layout_constraintHorizontal_bias="0.4"
+        android:text="Innings"
+        android:fontFamily="@font/bosox"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:background="@drawable/scorebox"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/lineupbutton"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        android:text="SET LINEUP"
+        android:fontFamily="@font/bosox"
+        android:textSize="60dp"
+        android:backgroundTint="#007A33"
+        />
+    <Button
+        android:id="@+id/settingsback"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        android:text="RETURN TO MENU"
+        android:fontFamily="@font/bosox"
+        android:textSize="60dp"
+        android:backgroundTint="#007A33"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

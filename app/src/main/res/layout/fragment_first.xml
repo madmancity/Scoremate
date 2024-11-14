@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    android:background="#007A33">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bosox"
+        android:text="TAP A BASE TO SCORE A HIT WHERE THE BATTER REACHED THAT BASE"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09"
+        android:background="@drawable/scorebox"
+        android:padding="10dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bosox"
+        android:text="TAP A WHITE BUTTON TO INDICATE A NON-HIT EVENT.
+HIT BY PITCH AND WALKS AUTOMATICALLY ADVANCE THE RUNNER TO FIRST BASE. "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24"
+        android:background="@drawable/scorebox"
+        android:padding="10dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bosox"
+        android:text="AFTER A RUNNER REACHES BASE, ALL OTHER BASE ADVANCEMENTS ARE ADDED BY TAPPING
+THE BASEPATHS THEY HAVE TAKEN"
+
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46"
+        android:background="@drawable/scorebox"
+        android:padding="10dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bosox"
+        android:text="TO INDICATE THE PITCH COUNT, FILL AN AMOUNT OF RED CIRCLES CORRESPONDING TO
+BALLS, AND AN AMOUNT OF GREEN CIRCLES CORRESPONDING TO STRIKES"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665"
+        android:background="@drawable/scorebox"
+        android:padding="10dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bosox"
+        android:text="SPECIAL ABBREVIATIONS:\n KS: STRIKEOUT WHERE LAST STRIKE WAS SWUNG AT AND MISSED\n KL:
+STRIKEOUT WHERE LAST STRIKE WAS NOT SWUNG AT"
+
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92"
+        android:background="@drawable/scorebox"
+        android:padding="10dp"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/returnbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1"
+        android:text="Return to Menu"
+        android:fontFamily="@font/bosox"
+        android:textSize="30dp"
+        android:backgroundTint="#007A33"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

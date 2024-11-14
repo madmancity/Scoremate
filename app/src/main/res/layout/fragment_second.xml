@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007A33"
+    tools:context=".SecondFragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bosox"
+        android:text="1B: SINGLE, 2B: DOUBLE, 3B: TRIPLE, HR: HOMERUN, GO: GROUND OUT, FO: FLYOUT,
+HBP: HIT BY PITCH, BB: WALK"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09"
+        android:background="@drawable/scorebox"
+        android:padding="10dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bosox"
+        android:text="RESULTS ARE SHOWN AS FOLLOWS:"
+
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+
+        android:background="@drawable/scorebox"
+        android:padding="10dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bosox"
+        android:text="RESULT OF PLATE APPEARANCE IS SHOWN IN MIDDLE OF DIAMOND, YELLOW BASEPATHS
+INDICATE WHICH BASES THE PLAYER REACHED. IF HIT WAS RECORDED, THE TYPE OF HIT IS SHOWN IN THE BOTTOM LEFT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41"
+        android:background="@drawable/scorebox"
+        android:padding="10dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bosox"
+        android:text="IF YOU'RE READING THIS, THANKS FOR AN EXCELLENT SEMESTER! I DON'T THINK I'VE
+LEARNED A SKILL IN AS SHORT AN AMOUNT OF TIME AS I LEARNED ANDROID DEVELOPMENT THIS YEAR. ENJOY YOUR SUMMER!\nTHANKS AGAIN,\nLIAM C. RAY"
+
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82"
+        android:background="@drawable/scorebox"
+        android:padding="10dp"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/returnbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1"
+        android:text="Return to Menu"
+        android:fontFamily="@font/bosox"
+        android:textSize="30dp"
+        android:backgroundTint="#007A33"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

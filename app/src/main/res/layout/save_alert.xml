@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="16dp"
+        android:text="Enter Date and Time of Game Below"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/enterdate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Date (DD/MM/YYYY)"
+        android:text=""
+        />
+    <EditText
+        android:id="@+id/entertime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Time (hh:mm PM/AM)"
+        android:text=""
+        />
+</LinearLayout>

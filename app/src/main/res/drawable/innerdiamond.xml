@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="43dp"
+        android:top="43dp"
+        android:right="43dp"
+        android:bottom="43dp">
+        <rotate android:fromDegrees="45">
+            <shape>
+                <size
+                    android:width="200dp"
+                    android:height="200dp" />
+                <gradient
+                    android:startColor="#FDB827"
+                    android:endColor="#FDB827" />
+                <stroke
+                    android:width="10dp"
+                    android:color="#000000" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
