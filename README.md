@@ -1,2 +1,2 @@
 # Scoremate
-A Mobile App for the Creation and Filling of Baseball Scorecards
+A Mobile App for the Creation and Filling of Baseball Scorecards (WIP)
